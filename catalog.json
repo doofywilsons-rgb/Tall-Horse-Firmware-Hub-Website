@@ -17,7 +17,32 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "Read-only Felucca capture candidate; simulated tests, physical verification pending",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "hugelton/Felucca",
+        "repository_url": "https://github.com/hugelton/Felucca",
+        "repository_owner": "hugelton",
+        "github_commit_contributors": [
+          {
+            "login": "kurogedelic",
+            "url": "https://github.com/kurogedelic",
+            "commits": 44,
+            "type": "User"
+          },
+          {
+            "login": "keremimo",
+            "url": "https://github.com/keremimo",
+            "commits": 1,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": false,
+        "upstream_repositories": [],
+        "local_build": false
+      }
     },
     {
       "catalog_id": "salt",
@@ -34,7 +59,58 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "ChanceTheMaker/Felucca",
+        "repository_url": "https://github.com/ChanceTheMaker/Felucca",
+        "repository_owner": "ChanceTheMaker",
+        "github_commit_contributors": [
+          {
+            "login": "ChanceTheMaker",
+            "url": "https://github.com/ChanceTheMaker",
+            "commits": 18,
+            "type": "User"
+          },
+          {
+            "login": "kurogedelic",
+            "url": "https://github.com/kurogedelic",
+            "commits": 15,
+            "type": "User"
+          },
+          {
+            "login": "keremimo",
+            "url": "https://github.com/keremimo",
+            "commits": 1,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": true,
+        "upstream_repositories": [
+          {
+            "repository": "hugelton/Felucca",
+            "url": "https://github.com/hugelton/Felucca",
+            "github_commit_contributors": [
+              {
+                "login": "kurogedelic",
+                "url": "https://github.com/kurogedelic",
+                "commits": 44,
+                "type": "User"
+              },
+              {
+                "login": "keremimo",
+                "url": "https://github.com/keremimo",
+                "commits": 1,
+                "type": "User"
+              }
+            ],
+            "verification_status": "verified"
+          }
+        ],
+        "local_build": false
+      }
     },
     {
       "catalog_id": "sloop",
@@ -51,7 +127,38 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "Read-only SLOOP capture candidate; simulated tests, physical verification pending",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "isod89/sloop-fm1",
+        "repository_url": "https://github.com/isod89/sloop-fm1",
+        "repository_owner": "isod89",
+        "github_commit_contributors": [
+          {
+            "login": "isod89",
+            "url": "https://github.com/isod89",
+            "commits": 18,
+            "type": "User"
+          },
+          {
+            "login": "ordenador",
+            "url": "https://github.com/ordenador",
+            "commits": 1,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": false,
+        "upstream_repositories": [],
+        "local_build": false,
+        "acknowledgements": [
+          {
+            "name": "Felucca by Leo Kuroshita / Hügelton Instruments (credited in SLOOP README)",
+            "url": "https://github.com/hugelton/Felucca"
+          }
+        ]
+      }
     },
     {
       "catalog_id": "sloopdx",
@@ -68,7 +175,64 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "Read-only SLOOP capture candidate; simulated tests, physical verification pending",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "zvenson/dxsloop",
+        "repository_url": "https://github.com/zvenson/dxsloop",
+        "repository_owner": "zvenson",
+        "github_commit_contributors": [
+          {
+            "login": "zvenson69",
+            "url": "https://github.com/zvenson69",
+            "commits": 119,
+            "type": "User"
+          },
+          {
+            "login": "claude",
+            "url": "https://github.com/claude",
+            "commits": 7,
+            "type": "User"
+          },
+          {
+            "login": "isod89",
+            "url": "https://github.com/isod89",
+            "commits": 7,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": true,
+        "upstream_repositories": [
+          {
+            "repository": "isod89/sloop-fm1",
+            "url": "https://github.com/isod89/sloop-fm1",
+            "github_commit_contributors": [
+              {
+                "login": "isod89",
+                "url": "https://github.com/isod89",
+                "commits": 18,
+                "type": "User"
+              },
+              {
+                "login": "ordenador",
+                "url": "https://github.com/ordenador",
+                "commits": 1,
+                "type": "User"
+              }
+            ],
+            "verification_status": "verified"
+          }
+        ],
+        "local_build": false,
+        "acknowledgements": [
+          {
+            "name": "Felucca by Leo Kuroshita / Hügelton Instruments (credited in SLOOP README)",
+            "url": "https://github.com/hugelton/Felucca"
+          }
+        ]
+      }
     },
     {
       "catalog_id": "zp12",
@@ -85,7 +249,32 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "zvenson/zp12",
+        "repository_url": "https://github.com/zvenson/zp12",
+        "repository_owner": "zvenson",
+        "github_commit_contributors": [
+          {
+            "login": "zvenson69",
+            "url": "https://github.com/zvenson69",
+            "commits": 255,
+            "type": "User"
+          },
+          {
+            "login": "isod89",
+            "url": "https://github.com/isod89",
+            "commits": 7,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": false,
+        "upstream_repositories": [],
+        "local_build": false
+      }
     },
     {
       "catalog_id": "x0x",
@@ -102,7 +291,38 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "charlesvestal/fm1-x0x",
+        "repository_url": "https://github.com/charlesvestal/fm1-x0x",
+        "repository_owner": "charlesvestal",
+        "github_commit_contributors": [
+          {
+            "login": "charlesvestal",
+            "url": "https://github.com/charlesvestal",
+            "commits": 180,
+            "type": "User"
+          },
+          {
+            "login": "kurogedelic",
+            "url": "https://github.com/kurogedelic",
+            "commits": 15,
+            "type": "User"
+          },
+          {
+            "login": "keremimo",
+            "url": "https://github.com/keremimo",
+            "commits": 1,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": false,
+        "upstream_repositories": [],
+        "local_build": false
+      }
     },
     {
       "catalog_id": "fomni",
@@ -119,7 +339,26 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "charlesvestal/fm1-fomni",
+        "repository_url": "https://github.com/charlesvestal/fm1-fomni",
+        "repository_owner": "charlesvestal",
+        "github_commit_contributors": [
+          {
+            "login": "charlesvestal",
+            "url": "https://github.com/charlesvestal",
+            "commits": 25,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": false,
+        "upstream_repositories": [],
+        "local_build": false
+      }
     },
     {
       "catalog_id": "choralroot",
@@ -136,7 +375,26 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "Quixotic7/ChoralRootFM1",
+        "repository_url": "https://github.com/Quixotic7/ChoralRootFM1",
+        "repository_owner": "Quixotic7",
+        "github_commit_contributors": [
+          {
+            "login": "Quixotic7",
+            "url": "https://github.com/Quixotic7",
+            "commits": 522,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": false,
+        "upstream_repositories": [],
+        "local_build": false
+      }
     },
     {
       "catalog_id": "jangada",
@@ -153,7 +411,38 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "zednaked/jangada",
+        "repository_url": "https://github.com/zednaked/jangada",
+        "repository_owner": "zednaked",
+        "github_commit_contributors": [
+          {
+            "login": "zednaked",
+            "url": "https://github.com/zednaked",
+            "commits": 191,
+            "type": "User"
+          },
+          {
+            "login": "kurogedelic",
+            "url": "https://github.com/kurogedelic",
+            "commits": 15,
+            "type": "User"
+          },
+          {
+            "login": "keremimo",
+            "url": "https://github.com/keremimo",
+            "commits": 1,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": false,
+        "upstream_repositories": [],
+        "local_build": false
+      }
     },
     {
       "catalog_id": "melodee",
@@ -170,7 +459,56 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "keremimo/melodee",
+        "repository_url": "https://github.com/keremimo/melodee",
+        "repository_owner": "keremimo",
+        "github_commit_contributors": [
+          {
+            "login": "keremimo",
+            "url": "https://github.com/keremimo",
+            "commits": 441,
+            "type": "User"
+          },
+          {
+            "login": "kurogedelic",
+            "url": "https://github.com/kurogedelic",
+            "commits": 16,
+            "type": "User"
+          },
+          {
+            "login": "relyt29",
+            "url": "https://github.com/relyt29",
+            "commits": 7,
+            "type": "User"
+          },
+          {
+            "login": "john",
+            "url": "https://github.com/john",
+            "commits": 3,
+            "type": "User"
+          },
+          {
+            "login": "charlesvestal",
+            "url": "https://github.com/charlesvestal",
+            "commits": 2,
+            "type": "User"
+          },
+          {
+            "login": "ChanceTheMaker",
+            "url": "https://github.com/ChanceTheMaker",
+            "commits": 1,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": false,
+        "upstream_repositories": [],
+        "local_build": false
+      }
     },
     {
       "catalog_id": "hortator",
@@ -187,7 +525,38 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "DeadActive/hortator",
+        "repository_url": "https://github.com/DeadActive/hortator",
+        "repository_owner": "DeadActive",
+        "github_commit_contributors": [
+          {
+            "login": "DeadActive",
+            "url": "https://github.com/DeadActive",
+            "commits": 390,
+            "type": "User"
+          },
+          {
+            "login": "kurogedelic",
+            "url": "https://github.com/kurogedelic",
+            "commits": 15,
+            "type": "User"
+          },
+          {
+            "login": "keremimo",
+            "url": "https://github.com/keremimo",
+            "commits": 1,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": false,
+        "upstream_repositories": [],
+        "local_build": false
+      }
     },
     {
       "catalog_id": "fimba",
@@ -204,7 +573,26 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "Stock FiMba has no supported saved-project export; do not flash a patch to rescue existing data",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "jadamsowers/fm1-fimba",
+        "repository_url": "https://github.com/jadamsowers/fm1-fimba",
+        "repository_owner": "jadamsowers",
+        "github_commit_contributors": [
+          {
+            "login": "jadamsowers",
+            "url": "https://github.com/jadamsowers",
+            "commits": 24,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": false,
+        "upstream_repositories": [],
+        "local_build": false
+      }
     },
     {
       "catalog_id": "ghoulbox",
@@ -221,7 +609,58 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "jasonpersinger/ghoulbox-fm1-dungeon-synth",
+        "repository_url": "https://github.com/jasonpersinger/ghoulbox-fm1-dungeon-synth",
+        "repository_owner": "jasonpersinger",
+        "github_commit_contributors": [
+          {
+            "login": "jasonpersinger",
+            "url": "https://github.com/jasonpersinger",
+            "commits": 101,
+            "type": "User"
+          },
+          {
+            "login": "kurogedelic",
+            "url": "https://github.com/kurogedelic",
+            "commits": 34,
+            "type": "User"
+          },
+          {
+            "login": "keremimo",
+            "url": "https://github.com/keremimo",
+            "commits": 1,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": true,
+        "upstream_repositories": [
+          {
+            "repository": "hugelton/Felucca",
+            "url": "https://github.com/hugelton/Felucca",
+            "github_commit_contributors": [
+              {
+                "login": "kurogedelic",
+                "url": "https://github.com/kurogedelic",
+                "commits": 44,
+                "type": "User"
+              },
+              {
+                "login": "keremimo",
+                "url": "https://github.com/keremimo",
+                "commits": 1,
+                "type": "User"
+              }
+            ],
+            "verification_status": "verified"
+          }
+        ],
+        "local_build": false
+      }
     },
     {
       "catalog_id": "bubba",
@@ -238,7 +677,28 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "unverified",
+        "repository": "Erbubar23/sloop-fm1",
+        "repository_url": "https://github.com/Erbubar23/sloop-fm1",
+        "repository_owner": null,
+        "github_commit_contributors": [],
+        "github_contributors_complete_for_snapshot": false,
+        "github_repository_fork": null,
+        "upstream_repositories": [],
+        "local_build": false,
+        "acknowledgements": [
+          {
+            "name": "Felucca by Leo Kuroshita / Hügelton Instruments (credited in SLOOP README)",
+            "url": "https://github.com/hugelton/Felucca"
+          }
+        ],
+        "reported_author": "Erbubar23",
+        "reported_author_evidence": "https://fm1.jesvs.com/firmwares/bubba/",
+        "reported_author_evidence_type": "Independent FM-1 catalog; historical source repository unverified"
+      }
     },
     {
       "catalog_id": "floyd",
@@ -255,7 +715,52 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "renebohne/sloop-fm1",
+        "repository_url": "https://github.com/renebohne/sloop-fm1",
+        "repository_owner": "renebohne",
+        "github_commit_contributors": [
+          {
+            "login": "isod89",
+            "url": "https://github.com/isod89",
+            "commits": 9,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": true,
+        "upstream_repositories": [
+          {
+            "repository": "isod89/sloop-fm1",
+            "url": "https://github.com/isod89/sloop-fm1",
+            "github_commit_contributors": [
+              {
+                "login": "isod89",
+                "url": "https://github.com/isod89",
+                "commits": 18,
+                "type": "User"
+              },
+              {
+                "login": "ordenador",
+                "url": "https://github.com/ordenador",
+                "commits": 1,
+                "type": "User"
+              }
+            ],
+            "verification_status": "verified"
+          }
+        ],
+        "local_build": false,
+        "acknowledgements": [
+          {
+            "name": "Felucca by Leo Kuroshita / Hügelton Instruments (credited in SLOOP README)",
+            "url": "https://github.com/hugelton/Felucca"
+          }
+        ]
+      }
     },
     {
       "catalog_id": "sloopbanks",
@@ -272,7 +777,52 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "majnikool/sloop-fm1",
+        "repository_url": "https://github.com/majnikool/sloop-fm1",
+        "repository_owner": "majnikool",
+        "github_commit_contributors": [
+          {
+            "login": "isod89",
+            "url": "https://github.com/isod89",
+            "commits": 7,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": true,
+        "upstream_repositories": [
+          {
+            "repository": "isod89/sloop-fm1",
+            "url": "https://github.com/isod89/sloop-fm1",
+            "github_commit_contributors": [
+              {
+                "login": "isod89",
+                "url": "https://github.com/isod89",
+                "commits": 18,
+                "type": "User"
+              },
+              {
+                "login": "ordenador",
+                "url": "https://github.com/ordenador",
+                "commits": 1,
+                "type": "User"
+              }
+            ],
+            "verification_status": "verified"
+          }
+        ],
+        "local_build": false,
+        "acknowledgements": [
+          {
+            "name": "Felucca by Leo Kuroshita / Hügelton Instruments (credited in SLOOP README)",
+            "url": "https://github.com/hugelton/Felucca"
+          }
+        ]
+      }
     },
     {
       "catalog_id": "waveloop",
@@ -289,7 +839,58 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "ELI7VH/Felucca",
+        "repository_url": "https://github.com/ELI7VH/Felucca",
+        "repository_owner": "ELI7VH",
+        "github_commit_contributors": [
+          {
+            "login": "ELI7VH",
+            "url": "https://github.com/ELI7VH",
+            "commits": 39,
+            "type": "User"
+          },
+          {
+            "login": "kurogedelic",
+            "url": "https://github.com/kurogedelic",
+            "commits": 29,
+            "type": "User"
+          },
+          {
+            "login": "keremimo",
+            "url": "https://github.com/keremimo",
+            "commits": 1,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": true,
+        "upstream_repositories": [
+          {
+            "repository": "hugelton/Felucca",
+            "url": "https://github.com/hugelton/Felucca",
+            "github_commit_contributors": [
+              {
+                "login": "kurogedelic",
+                "url": "https://github.com/kurogedelic",
+                "commits": 44,
+                "type": "User"
+              },
+              {
+                "login": "keremimo",
+                "url": "https://github.com/keremimo",
+                "commits": 1,
+                "type": "User"
+              }
+            ],
+            "verification_status": "verified"
+          }
+        ],
+        "local_build": false
+      }
     },
     {
       "catalog_id": "rainbow",
@@ -306,7 +907,64 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "joshbartlettband-web/felucca-rainbow",
+        "repository_url": "https://github.com/joshbartlettband-web/felucca-rainbow",
+        "repository_owner": "joshbartlettband-web",
+        "github_commit_contributors": [
+          {
+            "login": "claude",
+            "url": "https://github.com/claude",
+            "commits": 74,
+            "type": "User"
+          },
+          {
+            "login": "kurogedelic",
+            "url": "https://github.com/kurogedelic",
+            "commits": 30,
+            "type": "User"
+          },
+          {
+            "login": "genkigenki",
+            "url": "https://github.com/genkigenki",
+            "commits": 11,
+            "type": "User"
+          },
+          {
+            "login": "keremimo",
+            "url": "https://github.com/keremimo",
+            "commits": 1,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": true,
+        "upstream_repositories": [
+          {
+            "repository": "hugelton/Felucca",
+            "url": "https://github.com/hugelton/Felucca",
+            "github_commit_contributors": [
+              {
+                "login": "kurogedelic",
+                "url": "https://github.com/kurogedelic",
+                "commits": 44,
+                "type": "User"
+              },
+              {
+                "login": "keremimo",
+                "url": "https://github.com/keremimo",
+                "commits": 1,
+                "type": "User"
+              }
+            ],
+            "verification_status": "verified"
+          }
+        ],
+        "local_build": false
+      }
     },
     {
       "catalog_id": "fumi",
@@ -323,7 +981,38 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "cartesive/fumi-1",
+        "repository_url": "https://github.com/cartesive/fumi-1",
+        "repository_owner": "cartesive",
+        "github_commit_contributors": [
+          {
+            "login": "cartesive",
+            "url": "https://github.com/cartesive",
+            "commits": 27,
+            "type": "User"
+          },
+          {
+            "login": "charlesvestal",
+            "url": "https://github.com/charlesvestal",
+            "commits": 18,
+            "type": "User"
+          },
+          {
+            "login": "cc-beatgroover",
+            "url": "https://github.com/cc-beatgroover",
+            "commits": 13,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": false,
+        "upstream_repositories": [],
+        "local_build": false
+      }
     },
     {
       "catalog_id": "quest",
@@ -340,7 +1029,58 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "hericdk/fm1-quest",
+        "repository_url": "https://github.com/hericdk/fm1-quest",
+        "repository_owner": "hericdk",
+        "github_commit_contributors": [
+          {
+            "login": "hericdk",
+            "url": "https://github.com/hericdk",
+            "commits": 37,
+            "type": "User"
+          },
+          {
+            "login": "isod89",
+            "url": "https://github.com/isod89",
+            "commits": 7,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": true,
+        "upstream_repositories": [
+          {
+            "repository": "isod89/sloop-fm1",
+            "url": "https://github.com/isod89/sloop-fm1",
+            "github_commit_contributors": [
+              {
+                "login": "isod89",
+                "url": "https://github.com/isod89",
+                "commits": 18,
+                "type": "User"
+              },
+              {
+                "login": "ordenador",
+                "url": "https://github.com/ordenador",
+                "commits": 1,
+                "type": "User"
+              }
+            ],
+            "verification_status": "verified"
+          }
+        ],
+        "local_build": false,
+        "acknowledgements": [
+          {
+            "name": "Felucca by Leo Kuroshita / Hügelton Instruments (credited in SLOOP README)",
+            "url": "https://github.com/hugelton/Felucca"
+          }
+        ]
+      }
     },
     {
       "catalog_id": "orbit",
@@ -357,7 +1097,26 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "dspaudio/orbit",
+        "repository_url": "https://github.com/dspaudio/orbit",
+        "repository_owner": "dspaudio",
+        "github_commit_contributors": [
+          {
+            "login": "dspaudio",
+            "url": "https://github.com/dspaudio",
+            "commits": 35,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": false,
+        "upstream_repositories": [],
+        "local_build": false
+      }
     },
     {
       "catalog_id": "sloopalg",
@@ -374,7 +1133,26 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "shaw-core/Sloop_ALG02",
+        "repository_url": "https://github.com/shaw-core/Sloop_ALG02",
+        "repository_owner": "shaw-core",
+        "github_commit_contributors": [
+          {
+            "login": "shaw-core",
+            "url": "https://github.com/shaw-core",
+            "commits": 7,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": false,
+        "upstream_repositories": [],
+        "local_build": false
+      }
     },
     {
       "catalog_id": "doom",
@@ -391,7 +1169,26 @@
       "local_sha256_matches": true,
       "provenance": "Original catalog package, unmodified",
       "backup_capability": "No native Tall Horse capture adapter verified; upstream capabilities require separate review",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "GitHub repository attribution, not proof of sole authorship",
+        "status": "verified",
+        "repository": "zvenson/fm1doom",
+        "repository_url": "https://github.com/zvenson/fm1doom",
+        "repository_owner": "zvenson",
+        "github_commit_contributors": [
+          {
+            "login": "zvenson69",
+            "url": "https://github.com/zvenson69",
+            "commits": 12,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": false,
+        "upstream_repositories": [],
+        "local_build": false
+      }
     },
     {
       "catalog_id": "tallhorse",
@@ -408,7 +1205,64 @@
       "local_sha256_matches": true,
       "provenance": "Tall Horse local research build (separate from upstream source)",
       "backup_capability": "SLOOP-style read-only capture candidate; not hardware-verified",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "Tall Horse experimental local build, upstream credited separately",
+        "status": "verified",
+        "repository": "zvenson/dxsloop",
+        "repository_url": "https://github.com/zvenson/dxsloop",
+        "repository_owner": "zvenson",
+        "github_commit_contributors": [
+          {
+            "login": "zvenson69",
+            "url": "https://github.com/zvenson69",
+            "commits": 119,
+            "type": "User"
+          },
+          {
+            "login": "claude",
+            "url": "https://github.com/claude",
+            "commits": 7,
+            "type": "User"
+          },
+          {
+            "login": "isod89",
+            "url": "https://github.com/isod89",
+            "commits": 7,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": true,
+        "upstream_repositories": [
+          {
+            "repository": "isod89/sloop-fm1",
+            "url": "https://github.com/isod89/sloop-fm1",
+            "github_commit_contributors": [
+              {
+                "login": "isod89",
+                "url": "https://github.com/isod89",
+                "commits": 18,
+                "type": "User"
+              },
+              {
+                "login": "ordenador",
+                "url": "https://github.com/ordenador",
+                "commits": 1,
+                "type": "User"
+              }
+            ],
+            "verification_status": "verified"
+          }
+        ],
+        "local_build": true,
+        "acknowledgements": [
+          {
+            "name": "Felucca by Leo Kuroshita / Hügelton Instruments (credited in SLOOP README)",
+            "url": "https://github.com/hugelton/Felucca"
+          }
+        ]
+      }
     },
     {
       "catalog_id": "fimba-thro-exp",
@@ -427,7 +1281,26 @@
       "local_sha256_matches": true,
       "provenance": "Tall Horse experimental modified build",
       "backup_capability": "Experimental last-saved-project read-only exporter; host-tested, not hardware-verified",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "role": "Tall Horse experimental local build, upstream credited separately",
+        "status": "verified",
+        "repository": "jadamsowers/fm1-fimba",
+        "repository_url": "https://github.com/jadamsowers/fm1-fimba",
+        "repository_owner": "jadamsowers",
+        "github_commit_contributors": [
+          {
+            "login": "jadamsowers",
+            "url": "https://github.com/jadamsowers",
+            "commits": 24,
+            "type": "User"
+          }
+        ],
+        "github_contributors_complete_for_snapshot": true,
+        "github_repository_fork": false,
+        "upstream_repositories": [],
+        "local_build": true
+      }
     },
     {
       "catalog_id": "official-v15",
@@ -444,7 +1317,13 @@
       "local_sha256_matches": true,
       "provenance": "Official recovery file, separate from selectable OS packages",
       "backup_capability": "Not a backup of settings or projects",
-      "switch_status_explained": "No safe switching and return/restore route hardware-verified"
+      "switch_status_explained": "No safe switching and return/restore route hardware-verified",
+      "developer_credits": {
+        "status": "vendor-link",
+        "vendor": "M-VAVE",
+        "vendor_url": "https://www.m-vave.com/download",
+        "note": "Official recovery firmware; refer to the manufacturer."
+      }
     }
   ],
   "experiments": [
@@ -488,5 +1367,7 @@
       "status": "Local experiment — not publicly released",
       "hardware_verified_for_backup_switch_restore": false
     }
-  ]
+  ],
+  "credits_audit_utc": "2026-10-16T15:49:48+00:00",
+  "credits_note": "GitHub commit contributors and repository metadata checked on the audit date. Not an exhaustive list of all designers, testers, authors, or license holders."
 }

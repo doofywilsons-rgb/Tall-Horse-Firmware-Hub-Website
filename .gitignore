@@ -16,3 +16,5 @@ private/
 backups/
 firmware/
 research/
+
+developer-audit-local.json
