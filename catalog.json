@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-16",
-  "package_count": 25,
+  "generated": "2026-10-18",
+  "package_count": 26,
   "firmwares": [
     {
       "catalog_id": "felucca",
@@ -1300,6 +1300,40 @@
         "github_repository_fork": false,
         "upstream_repositories": [],
         "local_build": true
+      }
+    },
+    {
+      "catalog_id": "fm1-open",
+      "file": null,
+      "display_name": "FM1 Open · Official M-VAVE",
+      "role": "os",
+      "product_identity": null,
+      "channel": "official-open",
+      "switch_status": "blocked-until-exact-route-tested",
+      "source": "https://github.com/m-vave/fm1_open",
+      "size": null,
+      "sha256": null,
+      "local_file_present": false,
+      "local_sha256_matches": null,
+      "provenance": "Official M-VAVE open firmware · metadata and companion Workbench link only; binary not hosted by Tall Horse",
+      "backup_capability": "Official Workbench supports project, sound, and sample-library exports; Tall Horse backup/restore integration not yet verified",
+      "switch_status_explained": "Manual install and boot reported successful on FM-1; automatic Tall Horse switching and return/restore have not been hardware-verified",
+      "workbench_url": "https://open.m-vave.com/fm1-workbench",
+      "setup_guide": "workbench.html",
+      "hardware_validation": {
+        "method": "User-reported physical FM-1 test on 2026-10-18, not independent automated verification",
+        "boot": "passed",
+        "sound_output": "passed",
+        "preset_switching": "passed",
+        "other_engines": "not tested",
+        "safe_automatic_switching": "not tested",
+        "backup_restore": "not tested"
+      },
+      "developer_credits": {
+        "status": "vendor-link",
+        "vendor": "M-VAVE",
+        "vendor_url": "https://www.m-vave.com/download",
+        "note": "Official firmware, source and Workbench maintained by M-VAVE"
       }
     },
     {
