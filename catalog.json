@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-18",
-  "package_count": 26,
+  "package_count": 25,
   "firmwares": [
     {
       "catalog_id": "felucca",
@@ -1334,7 +1334,25 @@
         "vendor": "M-VAVE",
         "vendor_url": "https://www.m-vave.com/download",
         "note": "Official firmware, source and Workbench maintained by M-VAVE"
-      }
+      },
+      "catalog_only": true,
+      "importable_package": false,
+      "companion_tools": [
+        {
+          "id": "official-fm1-workbench",
+          "name": "Official FM1 Workbench",
+          "url": "https://open.m-vave.com/fm1-workbench",
+          "requires_desktop_browser_for_hardware": true,
+          "launch": "external-browser",
+          "data_formats": [
+            ".fm1",
+            ".fm1s",
+            ".fm1t",
+            ".syx"
+          ],
+          "automated_firmware_switching": false
+        }
+      ]
     },
     {
       "catalog_id": "official-v15",
@@ -1403,5 +1421,6 @@
     }
   ],
   "credits_audit_utc": "2026-10-16T15:49:48+00:00",
-  "credits_note": "GitHub commit contributors and repository metadata checked on the audit date. Not an exhaustive list of all designers, testers, authors, or license holders."
+  "credits_note": "GitHub commit contributors and repository metadata checked on the audit date. Not an exhaustive list of all designers, testers, authors, or license holders.",
+  "catalog_entry_count": 26
 }
