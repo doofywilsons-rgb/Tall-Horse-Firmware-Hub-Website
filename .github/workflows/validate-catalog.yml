@@ -1,0 +1,28 @@
+name: Validate Public FM1 Catalog
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'catalog.json'
+      - 'index.html'
+      - 'workbench.html'
+      - 'tools/validate-catalog.mjs'
+      - '.github/workflows/validate-catalog.yml'
+  pull_request:
+    paths:
+      - 'catalog.json'
+      - 'index.html'
+      - 'workbench.html'
+      - 'tools/validate-catalog.mjs'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate catalog and Workbench links
+        run: node tools/validate-catalog.mjs
