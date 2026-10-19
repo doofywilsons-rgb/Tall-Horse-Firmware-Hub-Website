@@ -16,9 +16,15 @@ assert.equal(catalog.catalog_entry_count,catalog.firmwares.filter(x=>x.role==='o
 assert.equal(catalog.package_count,catalog.firmwares.filter(x=>x.role==='os' && x.catalog_only!==true && x.local_file_present===true).length);
 assert.equal(catalog.catalog_entry_count,26);
 assert.equal(catalog.package_count,25);
-const m=page.match(/<script type="application\\/json" id="catalog-data">([\\s\\S]*?)<\\/script>/);
-assert(m,'Embedded site catalog missing');
-assert.deepEqual(JSON.parse(m[1]),catalog,'Embedded catalog differs from catalog.json');
+const markerStart = '<script type="application/json" id="catalog-data">';
+const markerEnd = '</script>';
+const markerPosition = page.indexOf(markerStart);
+assert(markerPosition >= 0, "Embedded site catalog missing");
+const contentStart = markerPosition + markerStart.length;
+const contentEnd = page.indexOf(markerEnd, contentStart);
+assert(contentEnd > contentStart, "Embedded site catalog is empty or unterminated");
+const embedded = JSON.parse(page.slice(contentStart, contentEnd));
+assert.deepEqual(embedded, catalog, "Embedded catalog differs from catalog.json");
 assert(page.includes('workbench.html'),'Site missing FM1 Open guide link');
 assert(guide.includes(fm.workbench_url),'Guide missing official tool link');
 assert(guide.includes('data-step="projects"'),'Backup checklist missing');
