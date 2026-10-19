@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FM1 Open | Setup & Tools — Tall Horse</title>
+<meta name="description" content="Safe setup guide and official M-VAVE FM1 Open Workbench links.">
+<style>
+:root{color-scheme:dark;--bg:#080b09;--card:#111916;--line:#294439;--text:#e8f5ec;--muted:#afc2b6;--glow:#b1ffc6;--amber:#ffdf92}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 90% 5%,#1d4930 0,transparent 44%),var(--bg);color:var(--text);font:15px/1.6 system-ui,Segoe UI,sans-serif}main{max-width:900px;margin:auto;padding:30px 22px 75px}a{color:var(--glow)}a:focus-visible,input:focus-visible{outline:2px solid var(--glow);outline-offset:3px}nav{padding:18px 0;border-bottom:1px solid var(--line)}nav a{font-weight:750;text-decoration:none}h1{font-size:clamp(32px,5vw,54px);line-height:1.15;margin:24px 0 14px}h2{font-size:23px;margin:0 0 12px}p{color:var(--muted)}.eyebrow{letter-spacing:.18em;text-transform:uppercase;color:var(--glow);font-size:12px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:14px;margin:22px 0}.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:19px}.card p{margin:6px 0 0}.notice{border-left:3px solid var(--amber);padding:14px 18px;background:#1a1d15;border-radius:7px;color:#e8d9b2}.button{display:inline-block;background:var(--glow);color:#07110a;text-decoration:none;padding:12px 18px;border-radius:8px;font-weight:800;margin:10px 12px 10px 0}.secondary{border:1px solid #588069;background:transparent;color:var(--glow)}section{padding-top:30px}ol li{margin:10px 0;color:var(--muted)}li strong{color:var(--text)}.check{display:flex;align-items:flex-start;gap:12px;margin:12px 0;color:var(--text)}.check input{width:19px;height:19px;margin-top:4px;accent-color:#b1ffc6}.muted{font-size:13px;color:var(--muted)}.status{font-size:14px;font-weight:700;color:var(--glow)}footer{color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:25px;margin-top:36px}
+</style></head><body><main>
+<nav><a href="index.html">← Tall Horse firmware library</a></nav>
+<div class="eyebrow">Firmware #26 · official M-VAVE firmware</div>
+<h1>FM1 Open · Setup & Tools</h1>
+<p>Use M-VAVE's official Workbench to explore, edit and manage supported FM-1 projects. Tall Horse opens the original tool; it does not embed the vendor firmware updater or connect to your hardware itself.</p>
+<a class="button" href="https://open.m-vave.com/fm1-workbench" target="_blank" rel="noopener noreferrer">Open official FM1 Workbench ↗</a>
+<a class="button secondary" href="https://github.com/m-vave/fm1_open" target="_blank" rel="noopener noreferrer">Official firmware & source ↗</a>
+<div class="notice"><strong>Device safety:</strong> Opening Workbench does not start an update. Back up sounds, projects and sample audio before any firmware changes. Forced flashing or factory restoration can overwrite data or require recovery. Never disconnect during an update.</div>
+<section><h2>Hardware test status</h2><div class="cards">
+<article class="card"><div class="status">✓ User-reported: passed</div><h3>Installed & booted</h3><p>FM1 Open booted to its new interface on the physical FM-1 (18 Oct 2026).</p></article>
+<article class="card"><div class="status">✓ User-reported: passed</div><h3>Sound & preset changes</h3><p>Audio playback and switching between presets worked without reported glitches.</p></article>
+<article class="card"><div class="status" style="color:var(--amber)">Not yet tested</div><h3>Backup, restore & switching</h3><p>Full recovery, alternate sound engines and Tall Horse's automated cross-firmware switching are not hardware-verified.</p></article>
+</div></section>
+<section><h2>Connect and explore</h2>
+<ol>
+<li><strong>Use a computer:</strong> Open the official Workbench in desktop Chrome or Edge. Android browsers may not expose the Web MIDI / SysEx access the hardware tool needs.</li>
+<li><strong>Connect FM-1:</strong> Use a USB data cable and choose <em>Connect Device</em> in Workbench. Approve the browser's MIDI / SysEx permission only for your intended FM-1.</li>
+<li><strong>Edit:</strong> Select a built-in preset or read the device project. Saving in the browser is different from writing to the device.</li>
+<li><strong>Save with care:</strong> If using <em>Save to device</em>, confirm the correct slot. It replaces that slot; wait for Workbench's read-back verification before disconnecting.</li>
+</ol></section>
+<section><h2>Backup checklist</h2><p>The checkboxes are private notes saved only in this browser. They do not detect the FM-1 or prove that a backup exists.</p>
+<label class="check"><input type="checkbox" data-step="projects">I exported every device project I want to keep (.fm1).</label>
+<label class="check"><input type="checkbox" data-step="samples">I exported the separate sample library (.fm1s).</label>
+<label class="check"><input type="checkbox" data-step="voices">I exported any individual track voices or DX7 sound banks I need (.fm1t / .syx).</label>
+<label class="check"><input type="checkbox" data-step="verify">I checked that the backup files actually exist on my computer.</label>
+<p id="check-status" aria-live="polite" class="muted"></p>
+<p class="muted">.fm1 projects do not include the sample audio; keep .fm1s separately. Restoring a project into Workbench does not automatically write it to the hardware.</p>
+</section>
+<section><h2>Compatibility and next steps</h2><p>Workbench has its own firmware update page, but Tall Horse does not initiate a flash. Firmware #26 is cataloged as a verified <em>user-reported</em> boot and sound test, not as a verified automatic backup, rollback or cross-firmware switching route.</p></section>
+<footer>Independent Tall Horse companion guide · Not affiliated with M-VAVE · No firmware binaries hosted.</footer></main>
+<script>
+"use strict";
+const checks=[...document.querySelectorAll("[data-step]")],status=document.getElementById("check-status");
+const key="tallhorse.fm1open.backupChecklist.v1";
+let stored={};try{stored=JSON.parse(localStorage.getItem(key)||"{}")||{};}catch{}
+checks.forEach(c=>{c.checked=stored[c.dataset.step]===true;c.addEventListener("change",()=>{
+const state={};checks.forEach(item=>state[item.dataset.step]=item.checked);
+try{localStorage.setItem(key,JSON.stringify(state));}catch{}
+update();
+});});
+function update(){const n=checks.filter(c=>c.checked).length;status.textContent=n+" of "+checks.length+" checklist steps marked complete (self-reported only).";}
+update();
+</script></body></html>
