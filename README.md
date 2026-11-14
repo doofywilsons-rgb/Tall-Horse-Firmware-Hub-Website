@@ -19,3 +19,5 @@ FM1 Open has an [official Workbench setup and backup guide](workbench.html) and 
 [Android Java integration handoff](android-integration/README.md) and [Java Workbench launcher](android-integration/Fm1OpenWorkbench.java) are available as developer materials, **not** a built Android app. Desktop Chrome or Edge is recommended by M-VAVE for hardware-facing Workbench operations.
 
 The static catalog and safety metadata can be checked with `node tools/validate-catalog.mjs` (also configured for GitHub Actions).
+
+Related: try FM-1 firmwares in the browser with the free community [FM-1 Emulator](https://fm1-emulator.atst.tools/).
